@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Group Members</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="member_name">Member Name</string>
+    <string name="member_age">Member Age</string>
+    <string name="member_height">Member Height</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+</resources>

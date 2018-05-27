@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".AddUpdateMember">
+
+
+    <EditText
+        android:id="@+id/memberNameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/member_name"
+        android:inputType="textPersonName"
+        android:textSize="25sp" />
+
+
+    <EditText
+        android:id="@+id/memberAgeET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/member_age"
+        android:inputType="numberSigned"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/memberHeightET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/member_height"
+        android:inputType="number"
+        android:textSize="25sp" />
+
+    <RadioGroup
+        android:id="@+id/genderRadioGroup"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/maleRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/male"
+            android:textSize="20sp"
+            android:checked="true"
+            />
+
+        <RadioButton
+            android:id="@+id/femaleRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/female"
+            android:textSize="20sp" />
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/addNewMemberBtn"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Member"
+        android:textAllCaps="false"
+        android:textSize="25sp"
+        android:onClick="addNewMember"/>
+
+
+</LinearLayout>
+

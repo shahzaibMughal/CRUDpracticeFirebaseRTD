@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "951429166352",
+    "firebase_url": "https://crud-practice-52c0e.firebaseio.com",
+    "project_id": "crud-practice-52c0e",
+    "storage_bucket": "crud-practice-52c0e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:951429166352:android:3fe43c3abbef2247",
+        "android_client_info": {
+          "package_name": "com.shahzaib.crudpracticefirebasertd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "951429166352-0v1th63caip68m28opv0gqnmjfe1vm6o.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "951429166352-0v1th63caip68m28opv0gqnmjfe1vm6o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3WAjP6XkbDbA0aukjMwIkzu6LjI0LtsY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
